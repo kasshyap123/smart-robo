@@ -1,0 +1,135 @@
+[
+  {
+    "id": "B01",
+    "master": "B01",
+    "step": "positioned_step/B01.step",
+    "print_file": "PRINT_ALL/01_B01.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B02",
+    "master": "B02",
+    "step": "positioned_step/B02.step",
+    "print_file": "PRINT_ALL/02_B02.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B03",
+    "master": "B03",
+    "step": "positioned_step/B03.step",
+    "print_file": "PRINT_ALL/03_B03.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B04",
+    "master": "B04",
+    "step": "positioned_step/B04.step",
+    "print_file": "PRINT_ALL/04_B04.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B05",
+    "master": "B05",
+    "step": "positioned_step/B05.step",
+    "print_file": "PRINT_ALL/05_B05.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B06",
+    "master": "B06",
+    "step": "positioned_step/B06.step",
+    "print_file": "PRINT_ALL/06_B06.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B07",
+    "master": "B07",
+    "step": "positioned_step/B07.step",
+    "print_file": "PRINT_ALL/07_B07.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B08",
+    "master": "B08",
+    "step": "positioned_step/B08.step",
+    "print_file": "PRINT_ALL/08_B08.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B09",
+    "master": "B09",
+    "step": "positioned_step/B09.step",
+    "print_file": "PRINT_ALL/09_B09.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B10",
+    "master": "B10",
+    "step": "positioned_step/B10.step",
+    "print_file": "PRINT_ALL/10_B10.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B10R",
+    "master": "B10R",
+    "step": "positioned_step/B10R.step",
+    "print_file": "PRINT_ALL/11_B10R.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B11_1",
+    "master": "B11",
+    "step": "positioned_step/B11_1.step",
+    "print_file": "PRINT_ALL/12_B11_1.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B11_2",
+    "master": "B11",
+    "step": "positioned_step/B11_2.step",
+    "print_file": "PRINT_ALL/13_B11_2.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B12",
+    "master": "B12",
+    "step": "positioned_step/B12.step",
+    "print_file": "PRINT_ALL/14_B12.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B13_1",
+    "master": "B13",
+    "step": "positioned_step/B13_1.step",
+    "print_file": "PRINT_ALL/15_B13_1.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B13_2",
+    "master": "B13",
+    "step": "positioned_step/B13_2.step",
+    "print_file": "PRINT_ALL/16_B13_2.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B13_3",
+    "master": "B13",
+    "step": "positioned_step/B13_3.step",
+    "print_file": "PRINT_ALL/17_B13_3.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B13_4",
+    "master": "B13",
+    "step": "positioned_step/B13_4.step",
+    "print_file": "PRINT_ALL/18_B13_4.stl",
+    "quantity_in_file": 1
+  },
+  {
+    "id": "B14",
+    "master": "B14",
+    "step": "positioned_step/B14.step",
+    "print_file": "PRINT_ALL/19_B14.stl",
+    "quantity_in_file": 1
+  }
+]

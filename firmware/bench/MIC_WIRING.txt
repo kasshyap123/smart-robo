@@ -1,0 +1,46 @@
+INMP441 NEXT BENCH TEST — USB POWER ONLY
+
+OLED test PASSED on 17 October 2026: ESP32 serial status says OLED data transfer
+OK; owner confirms border, blinking eyes and moving bar.
+
+Owner reports microphone has empty connection holes. Solder six short, flexible,
+insulated wires to its labelled pads before connecting it. This also preserves
+the flexible-wire installation selected for the CAD; a bulky header isn't needed.
+Do not use loose wires pushed into the holes as electrical contacts.
+
+Disconnect ESP32 USB before soldering or changing any connections. Work on the
+unpowered microphone separately. Solder one pad at a time with electronics solder
+and rosin flux. Keep joints separate and the sound port clear. Inspect for bridges
+and stray wire strands. Check VDD/GND for a solder bridge before connecting power.
+Use the labels printed on this board; do not infer pad order from another module.
+
+MIC LABEL       ESP32
+VDD / VCC       3V3 (not 5V)
+GND             GND
+SCK / BCLK      GPIO26 / D26
+WS              GPIO27 / D27
+SD              GPIO34 / D34
+L/R             GND (select left I2S channel)
+
+Keep the OLED wiring unchanged: SDA=21, SCL=22, VCC=3V3, GND=GND.
+Use breadboard groups to share 3V3/GND. Each 5-hole group on one side is one
+connection; the centre gap separates the two sides. Power rails may be split.
+Use the multimeter continuity function with power disconnected to identify
+connections when uncertain. Do not put different signal wires into one group.
+
+The Mic_OLED_Bench sketch samples the selected left channel at 16 kHz in 32-bit
+I2S words and computes relative RMS level from the signed 24-bit data. The OLED
+keeps the eyes and displays a level bar. Serial gives relative dBFS and min/max.
+This is not dB SPL and it does not recognize speech or send audio to a server.
+
+Test once wiring is ready: speak or clap 10-20 cm away, then stay quiet. Look for
+a repeatable increase and decrease in the level. Driver startup or nonzero
+samples alone do not verify sound capture. Subsequent recording/playback will
+be needed before signing off voice audio quality.
+
+No new sketch is uploaded until the physical mic wiring is ready. The known-good
+OLED sketch remains running. No battery, motor, amplifier or servo power added.
+
+References:
+https://docs.espressif.com/projects/arduino-esp32/en/latest/api/i2s.html
+https://invensense.tdk.com/wp-content/uploads/2015/02/INMP441.pdf

@@ -1,0 +1,8 @@
+'use strict';
+// Only the published interface and derived display meshes are cached, never robot commands or private API responses.
+const CACHE='rover-shell-v6-silver-controls';
+const ASSETS=['./','./index.html','./style.css','./app.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./assets/geometry.json','./assets/robot.bin','./vendor/three.module.js','./vendor/three.core.js','./vendor/OrbitControls.js','./controls/','./controls/index.html','./controls/style.css','./controls/app.js','./controls/icon.svg','./controls/icon-192.png','./controls/icon-512.png'];
+const paths=new Set(ASSETS.map(p=>new URL(p,self.registration.scope).pathname));
+self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(async cache=>{for(const path of ASSETS){const response=await fetch(path);if(response.ok&&!response.redirected)await cache.put(path,response)}}).then(()=>self.skipWaiting())));
+self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('rover-shell-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
+self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(event.request.method!=='GET'||url.origin!==self.location.origin||!paths.has(url.pathname))return;event.respondWith(fetch(event.request).then(response=>{if(response.ok&&!response.redirected&&new URL(response.url).pathname===url.pathname){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));}return response;}).catch(()=>caches.match(event.request).then(response=>response||Response.error())))});

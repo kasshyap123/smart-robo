@@ -1,0 +1,50 @@
+ONE HC-SR04 + WORKING OLED — 18 OCTOBER 2026
+
+Microphone is set aside at the owner's request; it is not confirmed dead.
+The owner confirmed five 1 kohm resistors are available/identified.
+
+Unplug USB before wiring. Disconnect ALL six mic connections and set the mic
+aside. Leave batteries, motors, driver, amplifier, buzzer and servos disconnected.
+Use ONE HC-SR04 at a time. Use its printed VCC/TRIG/ECHO/GND labels.
+
+OLED (unchanged): VCC=3V3, GND=GND, SDA=GPIO21, SCL=GPIO22.
+HC-SR04: VCC=ESP32 pin labelled 5V/VIN while powered by USB; GND=common GND;
+TRIG=GPIO13. Its ECHO goes through the five-resistor divider below to GPIO35.
+Keep HC-SR04 5V supply separate from the OLED 3.3V rail. Do not feed 5V into 3V3.
+If the labelled VIN pin has no near-5V output under USB, stop and identify the
+board's actual 5V supply connection rather than guessing another pin.
+
+ALL FIVE RESISTORS ARE 1 kohm. Each resistor joins end-to-end in SERIES:
+
+HC ECHO -- R1 -- R2 -- JUNCTION -- R3 -- R4 -- R5 -- common GND
+                          |
+                       GPIO35
+
+R1+R2 = 2 kohm between HC ECHO and junction.
+R3+R4+R5 = 3 kohm between junction and GND.
+GPIO35 connects ONLY to the junction, not directly to HC ECHO.
+The junction is one shared breadboard five-hole group; each intermediate resistor
+connection uses a different shared group. Each resistor must span two DIFFERENT
+groups, so it isn't bypassed by a breadboard's internal metal clip.
+
+At 5V Echo HIGH, junction is nominally 5 x 3/(2+3) = 3.0V.
+For 4.75-5.25V Echo and 5% resistors, theoretical HIGH range is 2.735-3.275V.
+This leaves margin above the ESP32 logic-high threshold and below 3.3V.
+Do not power until the Echo divider is assembled correctly. A soldered divider
+isn't required for this breadboard test.
+
+Code: Sonar_OLED_Bench/Sonar_OLED_Bench.ino
+TRIG pulse 12 us, start interval >=120 ms, timeout 30 ms. Range estimate follows
+datasheet pulse-us / 58. No echo is displayed as dashes, never a fabricated 0 cm.
+OLED displays centimetres. The bottom bar fills over 0-100 cm.
+
+After wiring is ready, upload the sonar sketch. Current mic firmware does NOT
+measure sonar and must be replaced before evaluating the sensor. Test a flat
+book/cardboard perpendicular to the two transducers at approximately 10, 20 and
+40 cm, measured from their front faces. Repeat readings should follow distance.
+Repeat the same wiring/test with the second HC-SR04 after unplugging USB. This
+does not test two-sensor crosstalk, obstacle avoidance logic or moving operation.
+
+Sources:
+https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
+https://documentation.espressif.com/esp32_datasheet_en.html

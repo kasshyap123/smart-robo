@@ -1,0 +1,15 @@
+Part,Name,Master STEP,Quantity after release,Intrinsic X mm,Intrinsic Y mm,Intrinsic Z mm,Status
+B01,Front integrated shell,part_masters/B01_master.step,1,117.7,136.0,70.0,HOLD — NOT READY
+B02,Rear integrated shell,part_masters/B02_master.step,1,130.0,136.0,70.0,HOLD — NOT READY
+B03,Front deck with sculpted fixed neck,part_masters/B03_master.step,1,117.2,135.0,31.0,HOLD — NOT READY
+B04,Rear service lid,part_masters/B04_master.step,1,117.2,135.0,6.0,HOLD — NOT READY
+B05,Electronics tray with integrated board platforms,part_masters/B05_master.step,1,112.0,127.0,9.0,HOLD — NOT READY
+B06,Adjustable ESP32 carrier with integral feet,part_masters/B06_master.step,1,50.0,64.0,6.0,HOLD — NOT READY
+B07,One-piece battery holder cradle,part_masters/B07_master.step,1,94.0,59.0,10.0,HOLD — NOT READY
+B08,Rounded head with integrated mounting rails,part_masters/B08_master.step,1,68.0,112.0,70.0,HOLD — NOT READY
+B09,Head rear cover with buzzer support,part_masters/B09_master.step,1,6.0,111.0,69.0,HOLD — NOT READY
+B10,Unified display microphone and LED visor,part_masters/B10_master.step,1,28.8,108.0,70.0,HOLD — NOT READY
+B10R,Removable OLED rear carrier,part_masters/B10R_master.step,1,3.0,63.0,27.3,HOLD — NOT READY
+B11,Speaker rear retaining frame,part_masters/B11_master.step,2,90.0,60.0,2.5,HOLD — NOT READY
+B12,Unified rear switch and charging panel,part_masters/B12_master.step,1,2.8,102.0,40.0,HOLD — NOT READY
+B13,Adjustable chassis foot,part_masters/B13_master.step,4,36.0,22.0,8.0,HOLD — NOT READY

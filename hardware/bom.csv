@@ -1,0 +1,29 @@
+item,quantity,status,notes
+ESP32 classic DevKit / CP2102,1,owned,30-pin ESP32-D0WD-V3; Arduino ESP32 Dev Module
+4WD acrylic chassis,1,owned,255 x 148 x 3 mm reference; retain existing mounting hardware
+Yellow TT geared DC motor,4,owned; leads professionally soldered,Nominal 3–6 V reported; exact stall/start current unknown
+L298N dual bridge module,1,owned,"44 x 44 x 28 mm listing envelope; two channels, not four independent channels"
+LM2596 HW-411 buck module,1,owned,IN+/IN-/OUT+/OUT- bare pads; adjustment/load test pending
+I2C OLED module,1,owned; visual bench pass,3.3 V bench power; SDA21/SCL22; common address 0x3C/0x3D
+HC-SR04 ultrasonic module,2,owned; separately tested,5 V; each Echo needs its own voltage divider
+INMP441 I2S microphone,1,owned; repaired basic pass,Round approximately 14 x 12 mm module; not an I2C microphone
+PAM8403 stereo amplifier,1,owned; repaired beep tests passed,5 V bench supply; bridge outputs; remaining faint noise
+Oval speaker,2,owned; professionally soldered,"Approximately 70 x 40 x 18–20 mm; one marked 4 ohm 3 W, second unmarked"
+18650 lithium-ion cell,2,owned,Reported 3.7 V 2000 mAh; discharge rating not established
+Two-cell holder,1,owned,Reported 77 x 40 x 20 mm; verify series/parallel topology
+Active buzzer B27,1,owned,"3–24 V listing; transistor driver planned, not GPIO-direct"
+Continuous-rotation SG90 servo,2,owned; unused,No mounts or use in fixed-neck configuration
+Red LED,2,owned,Each needs its own resistor
+Green LED,2,owned,Each needs its own resistor
+Two-pin rocker switch,2,owned,Corrected B12 opening 15.4 x 10.4 mm; physical latch fit pending
+1 kohm resistor,5,original quantity confirmed,Five used for one 2k/3k Echo divider; second divider needs its own parts
+10 kohm resistor,5,original inventory,Additional quantities/values may be needed for the final interface
+104 ceramic capacitor (100 nF),at least 2,owned,"One used as series audio coupling; also useful for bypassing, not the same circuit"
+100 uF 25 V electrolytic capacitor,3,reported available,Amp supply bulk bypass; polarity matters
+Breadboards and Dupont jumpers,several,owned,Temporary bench wiring; thin jumpers are not motor supply wiring
+Perfboard,1 proposed,purchase not confirmed,75 x 45 mm with 2.54 mm pitch; plan roughly 40 x 25 mm cut board
+Flexible stranded hookup wire,as needed,purchased amount unconfirmed,"Suggested 20–22 AWG short motor/power, lighter gauge for low-current signals"
+"Heat shrink, labels, strain relief",as needed,confirm stock,Keep adjacent conductors separate
+Soldering iron and multimeter,1 each,owned,Professional resoldering completed for returned components
+Metric machine screws / nuts / washers,see mechanical guide,partial stock,Owned M3 x 20 are not suitable for every joint
+"Battery protection, fuse and matched charger",TBD,not confirmed,No complete battery-power wiring released

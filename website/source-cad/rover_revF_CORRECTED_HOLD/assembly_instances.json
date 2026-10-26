@@ -1,0 +1,434 @@
+[
+  {
+    "id": "B01",
+    "master": "B01",
+    "step": "final_step/B01_final.step",
+    "master_step": "part_masters/B01_master.step",
+    "translation_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 0,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      0.3,
+      -68.0,
+      8.0,
+      118.0,
+      68.0,
+      78.0
+    ],
+    "sha256": "159f07410b67559fce47d9d56c293a42a9826c4171884e90cd8ce3c86970afbc"
+  },
+  {
+    "id": "B02",
+    "master": "B02",
+    "step": "final_step/B02_final.step",
+    "master_step": "part_masters/B02_master.step",
+    "translation_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 0,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      -118.0,
+      -68.0,
+      8.0,
+      12.0,
+      68.0,
+      78.0
+    ],
+    "sha256": "ece02bdbb322c1bd22325edb8227b01e9224ee198b3a96f9965daf2233729ec5"
+  },
+  {
+    "id": "B03",
+    "master": "B03",
+    "step": "final_step/B03_final.step",
+    "master_step": "part_masters/B03_master.step",
+    "translation_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 0,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      0.3,
+      -67.5,
+      78.0,
+      117.5,
+      67.5,
+      109.0
+    ],
+    "sha256": "10619b719bc6d44bccbe27e4c5b7f4f81310790161b16c637e88b5280833c168"
+  },
+  {
+    "id": "B04",
+    "master": "B04",
+    "step": "final_step/B04_final.step",
+    "master_step": "part_masters/B04_master.step",
+    "translation_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 0,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      -117.5,
+      -67.5,
+      75.0,
+      -0.3,
+      67.5,
+      81.0
+    ],
+    "sha256": "bdb8e4f370513da99ff2d242828bfa66d3075ee285d847569ad939ca92795358"
+  },
+  {
+    "id": "B05",
+    "master": "B05",
+    "step": "final_step/B05_final.step",
+    "master_step": "part_masters/B05_master.step",
+    "translation_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 0,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      -112.0,
+      -63.5,
+      44.0,
+      0.0,
+      63.5,
+      53.0
+    ],
+    "sha256": "d9e9db6260fef2d420e09fb431ef4a1e4fa169b1f41ad05ca6a6ae4207afc384"
+  },
+  {
+    "id": "B06",
+    "master": "B06",
+    "step": "final_step/B06_final.step",
+    "master_step": "part_masters/B06_master.step",
+    "translation_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 0,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      -103.0,
+      -7.0,
+      47.0,
+      -53.0,
+      57.0,
+      53.0
+    ],
+    "sha256": "a17b08463609ced2e1fda2187ca84670fad01a1540323219e64bd0974d2b1961"
+  },
+  {
+    "id": "B07",
+    "master": "B07",
+    "step": "final_step/B07_final.step",
+    "master_step": "part_masters/B07_master.step",
+    "translation_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 0,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      -95.0,
+      -29.5,
+      0.0,
+      -1.0,
+      29.5,
+      10.0
+    ],
+    "sha256": "9f7fe3a6b5964112c0c4e0487a68c3b4a6e68972fa721dbd0c05fb9a11a1c26e"
+  },
+  {
+    "id": "B08",
+    "master": "B08",
+    "step": "final_step/B08_final.step",
+    "master_step": "part_masters/B08_master.step",
+    "translation_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 0,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      30.0,
+      -56.0,
+      109.0,
+      98.0,
+      56.0,
+      179.0
+    ],
+    "sha256": "41efaf1dc932832762e36078a4847781ecb48e3221e0160acc283e4eae66fcbf"
+  },
+  {
+    "id": "B09",
+    "master": "B09",
+    "step": "final_step/B09_final.step",
+    "master_step": "part_masters/B09_master.step",
+    "translation_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 0,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      27.0,
+      -55.5,
+      109.5,
+      33.0,
+      55.5,
+      178.5
+    ],
+    "sha256": "915d5082cc6414aa853f5f301e8b383e17c5e1425fbb3bb9c3b20a65d2f3e4fa"
+  },
+  {
+    "id": "B10",
+    "master": "B10",
+    "step": "final_step/B10_final.step",
+    "master_step": "part_masters/B10_master.step",
+    "translation_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 0,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      72.0,
+      -54.0,
+      109.0,
+      100.8,
+      54.0,
+      179.0
+    ],
+    "sha256": "a5d83a737c067d739fea49628224decd3c17b30529b9bbe15e8082c17c118257"
+  },
+  {
+    "id": "B10R",
+    "master": "B10R",
+    "step": "final_step/B10R_final.step",
+    "master_step": "part_masters/B10R_master.step",
+    "translation_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 0,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      88.0,
+      -31.5,
+      146.172,
+      91.0,
+      31.5,
+      173.472
+    ],
+    "sha256": "4a68c4b8c499e652f05f5dd1fcb45fb74e9c6884fa87857d204122d1abfe8ef2"
+  },
+  {
+    "id": "B11",
+    "master": "B11",
+    "step": "final_step/B11_final.step",
+    "master_step": "part_masters/B11_master.step",
+    "translation_mm": [
+      60,
+      54.2,
+      47
+    ],
+    "rotation_axis": "X",
+    "rotation_degrees": -90,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      15.0,
+      54.2,
+      17.0,
+      105.0,
+      56.7,
+      77.0
+    ],
+    "sha256": "13328b3ae0273a031b6b7f7f55ceeb4e5883f9b81146895a6ff8866dbaa804ec"
+  },
+  {
+    "id": "B11_right",
+    "master": "B11",
+    "step": "final_step/B11_right_final.step",
+    "master_step": "part_masters/B11_master.step",
+    "translation_mm": [
+      60,
+      -54.2,
+      47
+    ],
+    "rotation_axis": "X",
+    "rotation_degrees": 90,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      15.0,
+      -56.7,
+      17.0,
+      105.0,
+      -54.2,
+      77.0
+    ],
+    "sha256": "db016529dec99c62d957c3522e7477d0f8100a50baafdfc344813f887fe76d92"
+  },
+  {
+    "id": "B12",
+    "master": "B12",
+    "step": "final_step/B12_final.step",
+    "master_step": "part_masters/B12_master.step",
+    "translation_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 0,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      -120.8,
+      -51.0,
+      7.0,
+      -118.0,
+      51.0,
+      47.0
+    ],
+    "sha256": "edd645124feaba3cee275ede58a88d3354a6586ca6d6b96b71c687bd0f024313"
+  },
+  {
+    "id": "B13",
+    "master": "B13",
+    "step": "final_step/B13_final.step",
+    "master_step": "part_masters/B13_master.step",
+    "translation_mm": [
+      90.0,
+      58.0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 0,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      72.0,
+      47.0,
+      0.0,
+      108.0,
+      69.0,
+      8.0
+    ],
+    "sha256": "ca717bf98e04fb06566d6bb2d687e0cc9ce2e3ec2b10cc50e1a05419c5b72a64"
+  },
+  {
+    "id": "B13_front_right",
+    "master": "B13",
+    "step": "final_step/B13_front_right_final.step",
+    "master_step": "part_masters/B13_master.step",
+    "translation_mm": [
+      90.0,
+      -58.0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 0,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      72.0,
+      -69.0,
+      0.0,
+      108.0,
+      -47.0,
+      8.0
+    ],
+    "sha256": "5a5e6a6645ade94da654532e80bfcd6f94d20ea237eb14a0ba585d86a90122c3"
+  },
+  {
+    "id": "B13_rear_left",
+    "master": "B13",
+    "step": "final_step/B13_rear_left_final.step",
+    "master_step": "part_masters/B13_master.step",
+    "translation_mm": [
+      -90.0,
+      58.0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 180,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      -108.0,
+      47.0,
+      0.0,
+      -72.0,
+      69.0,
+      8.0
+    ],
+    "sha256": "9d8328b3fda37c921a3e94c102f2614d5242a0b1f64a1bf05b9dc83a08b097ad"
+  },
+  {
+    "id": "B13_rear_right",
+    "master": "B13",
+    "step": "final_step/B13_rear_right_final.step",
+    "master_step": "part_masters/B13_master.step",
+    "translation_mm": [
+      -90.0,
+      -58.0,
+      0
+    ],
+    "rotation_axis": "Z",
+    "rotation_degrees": 180,
+    "geometry_quantity": 1,
+    "solid_count": 1,
+    "bounds_mm": [
+      -108.0,
+      -69.0,
+      0.0,
+      -72.0,
+      -47.0,
+      8.0
+    ],
+    "sha256": "d40fa0996ed0223175367b5e34b3237237afa302e6d43ad141ff03d7cfd0949a"
+  }
+]

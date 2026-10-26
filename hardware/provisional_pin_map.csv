@@ -1,0 +1,20 @@
+function,gpio,status_or_limit
+OLED SDA,21,bench verified / proposed final
+OLED SCL,22,bench verified / proposed final
+Microphone BCLK,26,bench verified / proposed final
+Microphone WS,27,bench verified / proposed final
+Microphone SD,34,input only; bench verified / proposed final
+PAM audio DAC,25,bench verified; final audio interface pending
+L298N ENA,32,proposed final; 10k pull-down planned
+L298N ENB,33,proposed final; 10k pull-down planned
+L298N IN1,16,proposed final; untested
+L298N IN2,17,proposed final; untested
+L298N IN3,18,proposed final; untested
+L298N IN4,19,proposed final; untested
+Left sonar TRIG,4,proposed final; bench uses GPIO13 instead
+Left sonar ECHO,35,through independent divider
+Right sonar TRIG,23,proposed final; not simultaneous bench tested
+Right sonar ECHO,36,VP; input only; through independent divider
+Buzzer transistor control,13,proposed final; conflicts with bench sonar TRIG13
+Two red LED controls,14,proposed final; one resistor per LED
+Optional battery ADC,39,VN; input only; suitable divider required

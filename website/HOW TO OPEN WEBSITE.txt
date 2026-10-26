@@ -1,0 +1,20 @@
+OPEN SMART ROBO WITHOUT CODEX
+
+LOCAL WEBSITE (files on this Mac)
+1. Open Desktop > robot > website in Finder.
+2. Double-click Open Smart Robo.command.
+3. Your browser opens automatically. Keep the Terminal window open.
+4. Open Controls from the website to use the control panel.
+5. When finished, press Control+C in that Terminal window.
+
+You do not need to ask Codex or run a build. The launcher refreshes the local display files each time. If the site is already running, it opens the existing local server. If the usual port is busy, it selects a free local port.
+
+LIVE WEBSITE (no Terminal needed)
+Double-click Open Live Website.webloc, or bookmark:
+https://rover-companion-tejas.tejaslkasshyapbtech2.chatgpt.site
+The live site is private, so you may need to sign in with your account.
+
+WHY NOT INDEX.HTML?
+The 3D viewer loads JavaScript modules and CAD model data. Browsers restrict those when opening a file directly. The launcher serves the files locally, which lets them load correctly.
+
+Local changes do not automatically update the live website. Publishing is a separate step. Both versions currently show demo controls; no physical robot or AI backend is connected.

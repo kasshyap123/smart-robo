@@ -1,0 +1,13 @@
+* -text
+*.stl binary
+*.step binary
+*.STEP binary
+*.bin binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.zip binary
+*.wav binary
+*.aiff binary
+*.f32 binary

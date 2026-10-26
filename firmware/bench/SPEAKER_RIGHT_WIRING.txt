@@ -1,0 +1,57 @@
+QUIET ONE-SPEAKER BENCH TEST — 19 OCTOBER 2026
+
+USB OFF for wiring. Batteries, LM2596, motor driver, motors, microphone and
+ultrasonic sensor power disconnected. OLED can remain as already verified.
+
+Wire identities from user photo codex-clipboard-81d30d60-7d65-48ee-b974-7b4b965950ac.png:
+WHITE: amplifier supply +, in 5V power pair -> ESP32 USB-powered 5V/VIN.
+YELLOW: amplifier supply - -> common ESP32 GND.
+GREEN in 3-hole INPUT group: audio GND -> common GND.
+RED in INPUT group: unused L audio input -> common GND.
+ORANGE in INPUT group: R input -> one end 0.1uF ceramic capacitor (104).
+Other capacitor end -> GPIO25/D25. Non-polar ceramic, either direction.
+R OUT + purple lead -> one speaker + terminal.
+R OUT - other purple lead -> same speaker - terminal.
+Use printed +/- marks to distinguish the two purple output wires.
+L OUT leads (green/teal + and orange -): leave unused and individually insulated.
+Do not confuse the orange L OUT wire with the orange R INPUT wire.
+
+No speaker output lead connects to GND, the other channel, or any GPIO.
+Keep speaker output wires short and together. Solder speaker terminals securely.
+Add 100uF/25V supply capacitor close to amplifier if available: capacitor + to
+white + supply, striped negative lead to yellow GND. Never across speaker outputs.
+
+This USB supply arrangement is only for the compiled brief, deliberately quiet
+one-speaker test. It is not approved for full-volume or two-speaker power.
+Keep WHITE supply lead disconnected and insulated until quiet firmware is
+uploaded and USB unplugged again; then connect white before next USB power-on.
+Do not upload/run unrelated full-amplitude audio while this setup is connected.
+
+Before any power, isolate the board and check for unintended adjacent-pad
+bridges and a sustained near-zero-ohm supply short. User reported earlier
+input joints separate; revised all-nine-wire board not electrically checked.
+Visual inspection alone is not an electrical pass.
+
+Source prepared: Speaker_Right_Bench/Speaker_Right_Bench.ino
+Firmware is quiet square-wave beeps, not voice or finished rover audio.
+Classic ESP32 GPIO25 DAC documented at:
+https://docs.espressif.com/projects/arduino-esp32/en/latest/api/dac.html
+PAM8403 input coupling/bridge output reference:
+https://www.diodes.com/datasheet/download/PAM8403.pdf
+
+20 OCTOBER 2026 — USER REQUESTS BOTH SPEAKERS AT ONCE
+After the verified deliberately quiet right-channel test, the same fixed-low-
+amplitude firmware can feed both channel INPUTS for a short bench check.
+This does not approve loud or sustained two-speaker playback from ESP32 USB.
+USB OFF for every connection change. Each speaker uses its own output pair.
+1. Second speaker -> L OUT + (green/teal OUTPUT), L OUT - (orange OUTPUT).
+2. Remove RED L INPUT from the common-ground breadboard group FIRST.
+3. Place that RED L INPUT into the same connected group as ORANGE R INPUT,
+   on the AMPLIFIER SIDE of the 104 series capacitor (e.g. c10 if the released
+   a10 orange / b10 capacitor layout was followed).
+4. GREEN input GND and YELLOW supply GND stay at common GND; supply wiring
+   unchanged. Do not change firmware amplitude. Keep free ends insulated.
+5. Reconnect USB; after startup, both speakers should play the same quiet beep.
+NEVER join the two output channels or their speaker-negative terminals.
+This is an input split, not speaker paralleling. Left speaker/channel remain
+unconfirmed until actual sound is reported.

@@ -1,0 +1,725 @@
+[
+  {
+    "id": "B01",
+    "name": "Front integrated shell",
+    "quantity": 1,
+    "role": "core",
+    "notes": "Unchanged. Chassis and moving-hardware fit pending.",
+    "copies": [
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "print_release": "HOLD \u2014 NOT READY",
+    "units": "mm",
+    "scale_factor": 1.0,
+    "returncode": 0,
+    "errors": [],
+    "step": "part_masters/B01_master.step",
+    "solid_count": 1,
+    "bounds": [
+      0.3,
+      -68.0,
+      8.0,
+      118.0,
+      68.0,
+      78.0
+    ],
+    "size_mm": [
+      117.7,
+      136.0,
+      70.0
+    ],
+    "volume_mm3": 113944.273,
+    "source_sha256": "9905917decc0eea6dab83742d0f4e36c12a946fcc6ce74f6c919e5bdd8483bb9",
+    "geometry_changed": false,
+    "export_sha256": "9905917decc0eea6dab83742d0f4e36c12a946fcc6ce74f6c919e5bdd8483bb9",
+    "audit_status": "CAD checks as documented; manufacturing HOLD",
+    "remaining_uncertainty": "Real motor/wheel positions and chassis attachment.",
+    "mesh_processing": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 117256
+    },
+    "verification_mesh": "cad/internal_mesh/B01.stl",
+    "verification_mesh_note": "Private validation artifact; regenerate using cad/build_review.py. Not a print file.",
+    "stl": "cad/internal_mesh/B01.stl"
+  },
+  {
+    "id": "B02",
+    "name": "Rear integrated shell",
+    "quantity": 1,
+    "role": "core",
+    "notes": "Unchanged. Lid/tray paths pass the stated CAD checks.",
+    "copies": [
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "print_release": "HOLD \u2014 NOT READY",
+    "units": "mm",
+    "scale_factor": 1.0,
+    "returncode": 0,
+    "errors": [],
+    "step": "part_masters/B02_master.step",
+    "solid_count": 1,
+    "bounds": [
+      -118.0,
+      -68.0,
+      8.0,
+      12.0,
+      68.0,
+      78.0
+    ],
+    "size_mm": [
+      130.0,
+      136.0,
+      70.0
+    ],
+    "volume_mm3": 74654.7972,
+    "source_sha256": "faf4cefeae07c14aa11266569f51f0195bbf2f82d168272062f7c9e12edb6e4f",
+    "geometry_changed": false,
+    "export_sha256": "faf4cefeae07c14aa11266569f51f0195bbf2f82d168272062f7c9e12edb6e4f",
+    "audit_status": "CAD checks as documented; manufacturing HOLD",
+    "remaining_uncertainty": "Real chassis fit and populated wiring.",
+    "mesh_processing": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 57852
+    },
+    "verification_mesh": "cad/internal_mesh/B02.stl",
+    "verification_mesh_note": "Private validation artifact; regenerate using cad/build_review.py. Not a print file.",
+    "stl": "cad/internal_mesh/B02.stl"
+  },
+  {
+    "id": "B03",
+    "name": "Front deck with sculpted fixed neck",
+    "quantity": 1,
+    "role": "core",
+    "notes": "Unchanged fixed neck and deck; cable passage retained.",
+    "copies": [
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "print_release": "HOLD \u2014 NOT READY",
+    "units": "mm",
+    "scale_factor": 1.0,
+    "returncode": 0,
+    "errors": [],
+    "step": "part_masters/B03_master.step",
+    "solid_count": 1,
+    "bounds": [
+      0.3,
+      -67.5,
+      78.0,
+      117.5,
+      67.5,
+      109.0
+    ],
+    "size_mm": [
+      117.2,
+      135.0,
+      31.0
+    ],
+    "volume_mm3": 107761.513,
+    "source_sha256": "fe8ecae49834fe5d5355a7b91137e8b91eacfb212bc3f0bd4d301cae1e8cd7a8",
+    "geometry_changed": false,
+    "export_sha256": "fe8ecae49834fe5d5355a7b91137e8b91eacfb212bc3f0bd4d301cae1e8cd7a8",
+    "audit_status": "CAD checks as documented; manufacturing HOLD",
+    "remaining_uncertainty": "Print fit, tool access and routed harness.",
+    "mesh_processing": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 20652
+    },
+    "verification_mesh": "cad/internal_mesh/B03.stl",
+    "verification_mesh_note": "Private validation artifact; regenerate using cad/build_review.py. Not a print file.",
+    "stl": "cad/internal_mesh/B03.stl"
+  },
+  {
+    "id": "B04",
+    "name": "Rear service lid",
+    "quantity": 1,
+    "role": "core",
+    "notes": "Unchanged 3 mm panel plus 3 mm locating lips; installation path passes.",
+    "copies": [
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "print_release": "HOLD \u2014 NOT READY",
+    "units": "mm",
+    "scale_factor": 1.0,
+    "returncode": 0,
+    "errors": [],
+    "step": "part_masters/B04_master.step",
+    "solid_count": 1,
+    "bounds": [
+      -117.5,
+      -67.5,
+      75.0,
+      -0.3,
+      67.5,
+      81.0
+    ],
+    "size_mm": [
+      117.2,
+      135.0,
+      6.0
+    ],
+    "volume_mm3": 44336.8183,
+    "source_sha256": "4db7a417725b9ecb357c7052b50b622e4708cbd7d69b54046119209d531fafc5",
+    "geometry_changed": false,
+    "export_sha256": "4db7a417725b9ecb357c7052b50b622e4708cbd7d69b54046119209d531fafc5",
+    "audit_status": "CAD checks as documented; manufacturing HOLD",
+    "remaining_uncertainty": "Printed lid fit and operating temperature review.",
+    "mesh_processing": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 45106
+    },
+    "verification_mesh": "cad/internal_mesh/B04.stl",
+    "verification_mesh_note": "Private validation artifact; regenerate using cad/build_review.py. Not a print file.",
+    "stl": "cad/internal_mesh/B04.stl"
+  },
+  {
+    "id": "B05",
+    "name": "Electronics tray with integrated board platforms",
+    "quantity": 1,
+    "role": "core",
+    "notes": "Unchanged. Board, driver and stated service-space budgets pass; actual terminals and clamps unverified.",
+    "copies": [
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "print_release": "HOLD \u2014 NOT READY",
+    "units": "mm",
+    "scale_factor": 1.0,
+    "returncode": 0,
+    "errors": [],
+    "step": "part_masters/B05_master.step",
+    "solid_count": 1,
+    "bounds": [
+      -112.0,
+      -63.5,
+      44.0,
+      0.0,
+      63.5,
+      53.0
+    ],
+    "size_mm": [
+      112.0,
+      127.0,
+      9.0
+    ],
+    "volume_mm3": 47214.7123,
+    "source_sha256": "0543d3866b2c29b8e1be1a07ef8b4b7fbcb3f169dbc9c92524aa9accac4dd28b",
+    "geometry_changed": false,
+    "export_sha256": "0543d3866b2c29b8e1be1a07ef8b4b7fbcb3f169dbc9c92524aa9accac4dd28b",
+    "audit_status": "CAD checks as documented; manufacturing HOLD",
+    "remaining_uncertainty": "Actual L298N variant, PCB underside and clamp positions; not purchased-confirmed.",
+    "mesh_processing": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 115888
+    },
+    "verification_mesh": "cad/internal_mesh/B05.stl",
+    "verification_mesh_note": "Private validation artifact; regenerate using cad/build_review.py. Not a print file.",
+    "stl": "cad/internal_mesh/B05.stl"
+  },
+  {
+    "id": "B06",
+    "name": "Adjustable ESP32 carrier with integral feet",
+    "quantity": 1,
+    "role": "core",
+    "notes": "Unchanged. Board and USB corridor pass; actual EN/BOOT, GPIO and retention fit unverified.",
+    "copies": [
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "print_release": "HOLD \u2014 NOT READY",
+    "units": "mm",
+    "scale_factor": 1.0,
+    "returncode": 0,
+    "errors": [],
+    "step": "part_masters/B06_master.step",
+    "solid_count": 1,
+    "bounds": [
+      -103.0,
+      -7.0,
+      47.0,
+      -53.0,
+      57.0,
+      53.0
+    ],
+    "size_mm": [
+      50.0,
+      64.0,
+      6.0
+    ],
+    "volume_mm3": 6053.27748,
+    "source_sha256": "812602d77246bd228885dbb12f0fee925451ba17537984eb1e72a1460021bcfd",
+    "geometry_changed": false,
+    "export_sha256": "812602d77246bd228885dbb12f0fee925451ba17537984eb1e72a1460021bcfd",
+    "audit_status": "CAD checks as documented; manufacturing HOLD",
+    "remaining_uncertainty": "Actual USB plug, EN/BOOT, GPIO and insulated edge retention.",
+    "mesh_processing": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 12552
+    },
+    "verification_mesh": "cad/internal_mesh/B06.stl",
+    "verification_mesh_note": "Private validation artifact; regenerate using cad/build_review.py. Not a print file.",
+    "stl": "cad/internal_mesh/B06.stl"
+  },
+  {
+    "id": "B07",
+    "name": "One-piece battery holder cradle",
+    "quantity": 1,
+    "role": "core",
+    "notes": "Unchanged. Bare-holder insertion/removal passes; installed speaker/foot intersections are zero.",
+    "copies": [
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "print_release": "HOLD \u2014 NOT READY",
+    "units": "mm",
+    "scale_factor": 1.0,
+    "returncode": 0,
+    "errors": [],
+    "step": "part_masters/B07_master.step",
+    "solid_count": 1,
+    "bounds": [
+      -95.0,
+      -29.5,
+      0.0,
+      -1.0,
+      29.5,
+      10.0
+    ],
+    "size_mm": [
+      94.0,
+      59.0,
+      10.0
+    ],
+    "volume_mm3": 23822.3787,
+    "source_sha256": "4f256bb4cedc14fb22c886be14857b25c080b633785e6200f1c6095a6c749343",
+    "geometry_changed": false,
+    "export_sha256": "4f256bb4cedc14fb22c886be14857b25c080b633785e6200f1c6095a6c749343",
+    "audit_status": "CAD checks as documented; manufacturing HOLD",
+    "remaining_uncertainty": "Loaded holder/cell height, leads and real attachment holes.",
+    "mesh_processing": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 10280
+    },
+    "verification_mesh": "cad/internal_mesh/B07.stl",
+    "verification_mesh_note": "Private validation artifact; regenerate using cad/build_review.py. Not a print file.",
+    "stl": "cad/internal_mesh/B07.stl"
+  },
+  {
+    "id": "B08",
+    "name": "Rounded head with integrated mounting rails",
+    "quantity": 1,
+    "role": "core",
+    "notes": "Unchanged. No positive-volume interference with B10/B10R.",
+    "copies": [
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "print_release": "HOLD \u2014 NOT READY",
+    "units": "mm",
+    "scale_factor": 1.0,
+    "returncode": 0,
+    "errors": [],
+    "step": "part_masters/B08_master.step",
+    "solid_count": 1,
+    "bounds": [
+      30.0,
+      -56.0,
+      109.0,
+      98.0,
+      56.0,
+      179.0
+    ],
+    "size_mm": [
+      68.0,
+      112.0,
+      70.0
+    ],
+    "volume_mm3": 71788.2954,
+    "source_sha256": "dda057ff0616e998c9f256d4a6c708d81833c04d01f9046d60bd395a40481297",
+    "geometry_changed": false,
+    "export_sha256": "dda057ff0616e998c9f256d4a6c708d81833c04d01f9046d60bd395a40481297",
+    "audit_status": "CAD checks as documented; manufacturing HOLD",
+    "remaining_uncertainty": "Physical head-harness fit and print tolerance.",
+    "mesh_processing": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 53832
+    },
+    "verification_mesh": "cad/internal_mesh/B08.stl",
+    "verification_mesh_note": "Private validation artifact; regenerate using cad/build_review.py. Not a print file.",
+    "stl": "cad/internal_mesh/B08.stl"
+  },
+  {
+    "id": "B09",
+    "name": "Head rear cover with buzzer support",
+    "quantity": 1,
+    "role": "core",
+    "notes": "Unchanged rear access cover and buzzer support.",
+    "copies": [
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "print_release": "HOLD \u2014 NOT READY",
+    "units": "mm",
+    "scale_factor": 1.0,
+    "returncode": 0,
+    "errors": [],
+    "step": "part_masters/B09_master.step",
+    "solid_count": 1,
+    "bounds": [
+      27.0,
+      -55.5,
+      109.5,
+      33.0,
+      55.5,
+      178.5
+    ],
+    "size_mm": [
+      6.0,
+      111.0,
+      69.0
+    ],
+    "volume_mm3": 24254.0002,
+    "source_sha256": "0bc9f0740bfe457ffa5a32e1087c735adcb04d36a77170efef61f965b9122412",
+    "geometry_changed": false,
+    "export_sha256": "0bc9f0740bfe457ffa5a32e1087c735adcb04d36a77170efef61f965b9122412",
+    "audit_status": "CAD checks as documented; manufacturing HOLD",
+    "remaining_uncertainty": "Actual buzzer flange/lead access.",
+    "mesh_processing": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 30304
+    },
+    "verification_mesh": "cad/internal_mesh/B09.stl",
+    "verification_mesh_note": "Private validation artifact; regenerate using cad/build_review.py. Not a print file.",
+    "stl": "cad/internal_mesh/B09.stl"
+  },
+  {
+    "id": "B10",
+    "name": "Unified display microphone and LED visor",
+    "quantity": 1,
+    "role": "core",
+    "notes": "Microphone region rebuilt: seat \u00d815.2, shoulder opening \u00d87, outer cup \u00d821.2. Geometry outside this region unchanged.",
+    "copies": [
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "print_release": "HOLD \u2014 NOT READY",
+    "units": "mm",
+    "scale_factor": 1.0,
+    "returncode": 0,
+    "errors": [],
+    "step": "part_masters/B10_master.step",
+    "solid_count": 1,
+    "bounds": [
+      72.0,
+      -54.0,
+      109.0,
+      100.8,
+      54.0,
+      179.0
+    ],
+    "size_mm": [
+      28.8,
+      108.0,
+      70.0
+    ],
+    "volume_mm3": 26972.1185,
+    "source_sha256": "4cf03c821eb2778ed427f6cf452c13afc9568c4bded353785b1a1a8473f16033",
+    "geometry_changed": true,
+    "export_sha256": "15f2e29dbb69fd6cd43f0036a5e3bd85acac2828dcdef65dd0c8c4d30778a128",
+    "audit_status": "CAD checks as documented; manufacturing HOLD",
+    "remaining_uncertainty": "Actual connected hardware, mic edge pads and small fasteners; acoustic testing.",
+    "mesh_processing": {
+      "collapsed_triangles_removed": 8,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 32154
+    },
+    "verification_mesh": "cad/internal_mesh/B10.stl",
+    "verification_mesh_note": "Private validation artifact; regenerate using cad/build_review.py. Not a print file.",
+    "stl": "cad/internal_mesh/B10.stl"
+  },
+  {
+    "id": "B10R",
+    "name": "Removable OLED rear carrier",
+    "quantity": 1,
+    "role": "retainer",
+    "copies": [
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "step": "part_masters/B10R_master.step",
+    "units": "mm",
+    "scale_factor": 1.0,
+    "bounds": [
+      88.0,
+      -31.5,
+      146.172,
+      91.0,
+      31.5,
+      173.472
+    ],
+    "source_sha256": "a1246410fc957dd1c95ab9f0f0050165632dec5560f2582533ff2cc2368f359c",
+    "geometry_changed": false,
+    "errors": [],
+    "print_release": "HOLD \u2014 NOT READY",
+    "solid_count": 1,
+    "volume_mm3": 3940.23426,
+    "size_mm": [
+      3.0,
+      63.0,
+      27.3
+    ],
+    "export_sha256": "a1246410fc957dd1c95ab9f0f0050165632dec5560f2582533ff2cc2368f359c",
+    "audit_status": "CAD checks as documented; manufacturing HOLD",
+    "notes": "Required removable OLED carrier, preserved and included in the assembly.",
+    "remaining_uncertainty": "Small-head M2 fasteners/spacers and final PCB match.",
+    "mesh_processing": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 5758
+    },
+    "verification_mesh": "cad/internal_mesh/B10R.stl",
+    "verification_mesh_note": "Private validation artifact; regenerate using cad/build_review.py. Not a print file.",
+    "stl": "cad/internal_mesh/B10R.stl"
+  },
+  {
+    "id": "B11",
+    "name": "Speaker rear retaining frame",
+    "quantity": 2,
+    "role": "core",
+    "notes": "Unchanged 90 \u00d7 60 \u00d7 2.5 geometry. Two copies exported at their installed positions.",
+    "copies": [
+      [
+        60,
+        54.2,
+        47,
+        -90
+      ],
+      [
+        60,
+        -54.2,
+        47,
+        90
+      ]
+    ],
+    "print_release": "HOLD \u2014 NOT READY",
+    "units": "mm",
+    "scale_factor": 1.0,
+    "returncode": 0,
+    "errors": [],
+    "step": "part_masters/B11_master.step",
+    "solid_count": 1,
+    "bounds": [
+      -45.0,
+      -30.0,
+      0.0,
+      45.0,
+      30.0,
+      2.5
+    ],
+    "size_mm": [
+      90.0,
+      60.0,
+      2.5
+    ],
+    "volume_mm3": 7417.70353,
+    "source_sha256": "adc63a4e85cfbeada119be2cdf0d4c2d3a672893ccfff471e8872fc59b383013",
+    "geometry_changed": false,
+    "export_sha256": "adc63a4e85cfbeada119be2cdf0d4c2d3a672893ccfff471e8872fc59b383013",
+    "audit_status": "CAD checks as documented; manufacturing HOLD",
+    "remaining_uncertainty": "Speaker flange/terminals/gasket; print two.",
+    "mesh_processing": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 6398
+    },
+    "verification_mesh": "cad/internal_mesh/B11.stl",
+    "verification_mesh_note": "Private validation artifact; regenerate using cad/build_review.py. Not a print file.",
+    "stl": "cad/internal_mesh/B11.stl"
+  },
+  {
+    "id": "B12",
+    "name": "Unified rear switch and charging panel",
+    "quantity": 1,
+    "role": "core",
+    "notes": "Unchanged two 19 \u00d7 12 switch openings; no charging cutout.",
+    "copies": [
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "print_release": "HOLD \u2014 NOT READY",
+    "units": "mm",
+    "scale_factor": 1.0,
+    "returncode": 0,
+    "errors": [],
+    "step": "part_masters/B12_master.step",
+    "solid_count": 1,
+    "bounds": [
+      -120.8,
+      -51.0,
+      7.0,
+      -118.0,
+      51.0,
+      47.0
+    ],
+    "size_mm": [
+      2.8,
+      102.0,
+      40.0
+    ],
+    "volume_mm3": 9985.42441,
+    "source_sha256": "ec95db614091c2f9c782cf0ce7bee3fb98bbb2cf3985c3badad9129e6c43fd40",
+    "geometry_changed": false,
+    "export_sha256": "ec95db614091c2f9c782cf0ce7bee3fb98bbb2cf3985c3badad9129e6c43fd40",
+    "audit_status": "CAD checks as documented; manufacturing HOLD",
+    "remaining_uncertainty": "Actual rocker latch/panel engagement and insulated terminals.",
+    "mesh_processing": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 5626
+    },
+    "verification_mesh": "cad/internal_mesh/B12.stl",
+    "verification_mesh_note": "Private validation artifact; regenerate using cad/build_review.py. Not a print file.",
+    "stl": "cad/internal_mesh/B12.stl"
+  },
+  {
+    "id": "B13",
+    "name": "Adjustable chassis foot",
+    "quantity": 4,
+    "role": "core",
+    "notes": "Unchanged slotted feet. Four installed copies exported; actual chassis-hole alignment unverified.",
+    "copies": [
+      [
+        90.0,
+        58.0,
+        0,
+        0
+      ],
+      [
+        90.0,
+        -58.0,
+        0,
+        0
+      ],
+      [
+        -90.0,
+        58.0,
+        0,
+        180
+      ],
+      [
+        -90.0,
+        -58.0,
+        0,
+        180
+      ]
+    ],
+    "print_release": "HOLD \u2014 NOT READY",
+    "units": "mm",
+    "scale_factor": 1.0,
+    "returncode": 0,
+    "errors": [],
+    "step": "part_masters/B13_master.step",
+    "solid_count": 1,
+    "bounds": [
+      -18.0,
+      -11.0,
+      0.0,
+      18.0,
+      11.0,
+      8.0
+    ],
+    "size_mm": [
+      36.0,
+      22.0,
+      8.0
+    ],
+    "volume_mm3": 5730.03319,
+    "source_sha256": "6b6159e91064097a1780e8c69887b1b6c6331a8d5769b6b628bce4d722a6a95b",
+    "geometry_changed": false,
+    "export_sha256": "6b6159e91064097a1780e8c69887b1b6c6331a8d5769b6b628bce4d722a6a95b",
+    "audit_status": "CAD checks as documented; manufacturing HOLD",
+    "remaining_uncertainty": "Actual acrylic hole coordinates; four feet conditional.",
+    "mesh_processing": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 5016
+    },
+    "verification_mesh": "cad/internal_mesh/B13.stl",
+    "verification_mesh_note": "Private validation artifact; regenerate using cad/build_review.py. Not a print file.",
+    "stl": "cad/internal_mesh/B13.stl"
+  }
+]

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#12191d"><meta name="description" content="Smart Robo. An animated journey through your original robot, with thirteen CAD flashcards on a living timeline."><title>Smart Robo — Up the Robo</title><link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./icon.svg"><link rel="apple-touch-icon" href="./icon-192.png"><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<a class="skip-link" href="#parts">Skip to the parts</a>
+<div class="ambient" aria-hidden="true"><div class="glow glow-one"></div><div class="glow glow-two"></div><div class="bubble-field" id="bubble-field"></div></div>
+<header class="site-header"><a class="brand" href="#top" aria-label="Rover home"><span class="brand-icon">s.</span><span>smart robo<span class="brand-label">THE COMPANION PROJECT</span></span></a><nav aria-label="Main navigation"><a href="#story" class="nav-story">The story</a><a href="#parts">The parts <span class="count">13</span></a><a href="./controls/" class="control-link">Controls <span aria-hidden="true">↗</span></a></nav></header>
+<main id="top">
+<section class="journey" id="story" aria-label="Scroll through the robot assembly">
+<div class="stage">
+<div class="hero-aura" aria-hidden="true"></div>
+<div id="model-mount" class="model-mount" aria-label="Interactive model converted from your robot CAD files"><div class="model-status" id="model-status" role="status"><span class="loading-orbit"></span>Assembling your Smart Robo…</div></div>
+<div class="story-copy" id="story-copy"><h1 class="smart-title" aria-label="Smart Robo"><span data-letters>SMART ROBO</span></h1><p class="hero-words" aria-label="Up the Robo"><span class="hero-up" data-letters>Up</span><span class="hero-the" data-letters>the</span><span class="hero-robo" data-letters>Robo</span></p><div class="hero-caption"><p>A little intelligence.<br>A whole lot of personality.</p><span class="intro-mood" id="intro-mood">Curious · OLED expression</span><button id="say-hello" class="hello-button">Say hello <span>✦</span></button><a href="#parts">Meet every part <span>↓</span></a></div></div>
+<div class="chapter-copy" id="chapter-copy" aria-hidden="true"><span class="eyebrow" id="chapter-label">01 / THE ASSEMBLY</span><h2 id="chapter-title">Together, it's Smart Robo.</h2><p id="chapter-description">Your original design. A whole new energy.</p></div>
+<div class="stage-bottom"><div class="scroll-hint"><span class="scroll-track"><i></i></span><span>SCROLL TO DISCOVER<br><small id="phase-label">Meet your companion</small></span></div><div class="scene-tools" aria-label="Model presentation"><button id="assemble" aria-label="Show assembled robot" aria-pressed="true">Assembled</button><button id="explode" aria-label="Show exploded robot" aria-pressed="false">Exploded</button><button id="motion-toggle" aria-pressed="false" aria-label="Pause ambient motion">Ⅱ</button></div><span class="chapter-number" id="chapter-number">01 <span>/ 03</span></span></div>
+<div class="concept-caption">4 WHEELS · 1 OLED · HARDWARE VISUAL CONCEPT</div><div class="journey-progress" aria-hidden="true"><i id="journey-progress"></i></div>
+</div>
+</section>
+<section class="parts-section orbit-mode" id="parts" aria-labelledby="parts-title">
+<div class="timeline-stage">
+<canvas id="orbit-particles" aria-hidden="true"></canvas><div class="orbit-vignette" aria-hidden="true"></div>
+<div class="section-heading"><span class="eyebrow">02 / THE ANATOMY OF SMART ROBO</span><h2 id="parts-title">Every piece.<br><em>In its orbit.</em></h2></div>
+<div class="orbit-preview-label">13 ORIGINAL PARTS</div>
+<div class="timeline-window"><div id="parts-grid" class="parts-grid"></div></div>
+<div class="orbit-guide"><span class="orbit-guide-line"></span><p>Scroll to travel <br>through the parts.</p><span>Tap a card to explore.</span></div>
+<div class="timeline-footer"><button class="pill" id="timeline-prev" aria-label="Previous timeline part">↑</button><div class="timeline-position"><span id="timeline-count">01 / 13</span><strong id="timeline-current">The front shell</strong><label class="sr-only" for="timeline-range">Choose a part on the timeline</label><input id="timeline-range" type="range" min="0" max="12" step="1" value="0"></div><button class="pill" id="timeline-next" aria-label="Next timeline part">↓</button></div>
+<button class="orbit-motion" id="orbit-motion" aria-label="Pause ambient motion">Pause motion Ⅱ</button>
+<div class="timeline-rail" aria-hidden="true"><i id="rail-progress"></i></div>
+</div></section>
+<section class="controls-invitation"><div class="controls-line" aria-hidden="true"></div><span class="eyebrow">03 / YOUR COMPANION, YOUR CONTROLS</span><h2>A little less looking.<br><em>A little more doing.</em></h2><p>Expressions, conversations and daily routines.<br>Your control room has its own space.</p><a class="pill primary" href="./controls/">Open control room <span>↗</span></a><span class="demo-note">Demo controls · physical robot not connected</span></section>
+</main>
+<footer class="site-footer"><a class="brand" href="#top"><span class="brand-icon">s.</span>smart robo</a><span>Original geometry. New energy.</span><button class="text-button" id="install">Install app ↗</button></footer>
+<dialog id="part-dialog" aria-labelledby="part-title"><div class="detail-top"><span class="eyebrow">SMART ROBO / PART EXPLORER</span><button class="icon-button" id="close-detail" aria-label="Close part explorer">✕</button></div><div class="detail-layout"><div class="detail-visual"><div id="detail-mount"></div><div class="detail-view-tools"><span>Drag to rotate · pinch or scroll to zoom</span><button id="reset-view" class="text-button">Reset view ↺</button></div></div><div class="detail-copy"><span class="eyebrow" id="part-id"></span><h2 id="part-title"></h2><p class="detail-lead" id="part-description"></p><div class="detail-specs" id="part-specs"></div><h3>What it does</h3><p id="part-function"></p><h3>How it fits</h3><p id="part-fit"></p><div class="detail-check"><span class="eyebrow">STILL TO VERIFY</span><p id="part-check"></p></div><div class="detail-nav"><button id="previous-part" class="pill">← Previous</button><span id="part-pagination"></span><button id="next-part" class="pill">Next →</button></div></div></div></dialog>
+<dialog id="install-dialog" class="small-dialog" aria-labelledby="install-title"><button class="icon-button" id="close-install" aria-label="Close installation instructions">✕</button><span class="eyebrow">TAKE ROVER WITH YOU</span><h2 id="install-title">One companion.<br>Every screen.</h2><p>On iPhone or iPad, open this site in Safari, tap Share, then Add to Home Screen.</p><p>On supported desktop and Android browsers, choose Install app from the browser menu. Installation availability depends on your browser and the site's access settings.</p><button class="pill primary" id="install-done">Got it</button></dialog>
+<div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+<noscript><p class="no-script">Enable JavaScript to explore the CAD model. <a href="./controls/">Open the control room</a>.</p></noscript><script type="module" src="./app.js"></script>
+</body></html>

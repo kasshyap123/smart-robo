@@ -1,0 +1,66 @@
+{
+  "status": "Allocated installation envelopes, not measured or electrically selected hardware",
+  "boards": [
+    {
+      "id": "interface_board",
+      "role": "Secured perfboard for level dividers, buzzer transistor and audio coupling",
+      "size_mm": [
+        50,
+        30,
+        16
+      ],
+      "origin_mm": [
+        24,
+        -25,
+        42
+      ]
+    },
+    {
+      "id": "protection_board",
+      "role": "Battery protection board selected within this allowance",
+      "size_mm": [
+        42,
+        18,
+        12
+      ],
+      "origin_mm": [
+        20,
+        9,
+        42
+      ]
+    },
+    {
+      "id": "additional_regulator",
+      "role": "Optional motor regulator selected after current tests, within this allowance",
+      "size_mm": [
+        42,
+        21,
+        22
+      ],
+      "origin_mm": [
+        64,
+        6,
+        42
+      ]
+    },
+    {
+      "id": "inline_fuse",
+      "role": "Insulated fuse holder within this allowance",
+      "size_mm": [
+        26,
+        13,
+        13
+      ],
+      "origin_mm": [
+        78,
+        -25,
+        42
+      ]
+    }
+  ],
+  "board_seat_z_mm": 42,
+  "tray_top_z_mm": 38,
+  "insulating_standoff_budget_mm": 4,
+  "onboard_charger": "No onboard charger allocated. Use a correctly matched external charger after pack/cell verification; remove or isolate the pack as required by its charger.",
+  "mount": "Four M3 x 12 screws, plain nuts and washers; new shell underside nut pockets. Boards use insulating 4 mm supports and narrow ties through adjustable tray slots. Keep clear of component bodies and conductors."
+}

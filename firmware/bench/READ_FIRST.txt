@@ -1,0 +1,36 @@
+ROVER FIRMWARE — FIRST LIVE COMPONENT TEST — 17 OCTOBER 2026
+
+The USB upload/serial test previously passed on the actual ESP32-D0WD-V3.
+This OLED sketch is the next bench test; it is not complete rover firmware.
+
+Unplug USB before wiring. Use the printed labels, not left/right pin positions:
+OLED GND -> ESP32 GND
+OLED VCC -> ESP32 3V3
+OLED SDA -> ESP32 GPIO21 (may be labelled D21)
+OLED SCL -> ESP32 GPIO22 (may be labelled D22)
+
+Use four jumpers. A breadboard is optional for this first four-wire test.
+Keep batteries, motors, motor driver, amplifier and servo power disconnected.
+The ESP32 may cover all breadboard holes beside its pins; don't force a bad fit.
+Direct female-to-female leads work if available. Otherwise use the breadboard
+with your male-to-female leads and separate connected five-hole groups.
+
+Sketch: OLED_Bench/OLED_Bench.ino
+Board: ESP32 Dev Module, esp32:esp32:esp32; core 3.3.12 in local tooling.
+Serial speed: 115200 baud. No extra display library needed for this bench test.
+The sketch searches 0x3C/0x3D, writes a border, blinking eyes and a moving bar.
+It retries every three seconds if the display does not respond.
+
+An address acknowledgement does NOT prove SSD1306 identity or working pixels.
+Only mark the visual test passed once the owner sees the expected full pattern.
+A shifted/blank pattern after ACK may indicate a different display controller.
+Do not rewire powered hardware; unplug USB first.
+
+Next stages after this passes: microphone input, then audio output and sensors.
+Motor power and Li-ion protection/charging remain unresolved; no motor-power
+connection is authorized by this OLED bench wiring.
+
+Reference for ESP32 I2C pins/API:
+https://docs.espressif.com/projects/arduino-esp32/en/latest/api/i2c.html
+SSD1306 command/register reference:
+https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf

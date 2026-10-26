@@ -1,0 +1,1 @@
+Diagnostic after all-zero mono data. Same wiring: SCK26 WS27 SD34 L/R GND, mic3V3/GND. Receives both slots; OLED upper bar is left and lower bar right. Nonzero data is not automatically a microphone pass; requires reproducible acoustic response. No physical solder-short test is implied. Original mono bench sketch preserved.

@@ -1,0 +1,19 @@
+.DS_Store
+**/.DS_Store
+**/__pycache__/
+*.pyc
+node_modules/
+.env
+.env.*
+!.env.example
+.arduino/
+.pio/
+build/
+rebuilt/
+*.pem
+*.key
+
+# Generated website and local account metadata
+website/dist/
+website/.openai/
+*.webloc

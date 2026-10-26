@@ -1,0 +1,453 @@
+[
+  {
+    "id": "B01",
+    "name": "Front integrated shell",
+    "quantity": 1,
+    "step": "master_step/B01.step",
+    "bounds": [
+      0.3,
+      -68.0,
+      8.0,
+      118.0,
+      68.0,
+      78.0
+    ],
+    "volume_mm3": 93976.516,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 109466,
+      "surface_components": 1,
+      "triangle_count": 109530
+    },
+    "print_dimensions_mm": [
+      117.7,
+      136.0,
+      70.0
+    ],
+    "print_mesh": "verification/B01_print.stl",
+    "source_sha256": "40917d9d7a21a3bfdb1e7f14d2a03fcfe2f6ef3e48e25973bb188d62a633c280",
+    "geometry_changed": true
+  },
+  {
+    "id": "B02",
+    "name": "Rear integrated shell",
+    "quantity": 1,
+    "step": "master_step/B02.step",
+    "bounds": [
+      -118.0,
+      -68.0,
+      8.0,
+      12.0,
+      68.0,
+      78.0
+    ],
+    "volume_mm3": 63211.8967,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 41724
+    },
+    "print_dimensions_mm": [
+      130.0,
+      136.0,
+      70.0
+    ],
+    "print_mesh": "verification/B02_print.stl",
+    "source_sha256": "faf4cefeae07c14aa11266569f51f0195bbf2f82d168272062f7c9e12edb6e4f",
+    "geometry_changed": false
+  },
+  {
+    "id": "B03",
+    "name": "Front deck with sculpted fixed neck",
+    "quantity": 1,
+    "step": "master_step/B03.step",
+    "bounds": [
+      0.3,
+      -67.5,
+      78.0,
+      117.5,
+      67.5,
+      109.0
+    ],
+    "volume_mm3": 107761.513,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 18698
+    },
+    "print_dimensions_mm": [
+      117.2,
+      135.0,
+      31.0
+    ],
+    "print_mesh": "verification/B03_print.stl",
+    "source_sha256": "fe8ecae49834fe5d5355a7b91137e8b91eacfb212bc3f0bd4d301cae1e8cd7a8",
+    "geometry_changed": false
+  },
+  {
+    "id": "B04",
+    "name": "Rear service lid",
+    "quantity": 1,
+    "step": "master_step/B04.step",
+    "bounds": [
+      -117.5,
+      -67.5,
+      75.0,
+      -0.3,
+      67.5,
+      88.5
+    ],
+    "volume_mm3": 46609.9358,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 36246
+    },
+    "print_dimensions_mm": [
+      117.2,
+      135.0,
+      13.5
+    ],
+    "print_mesh": "verification/B04_print.stl",
+    "source_sha256": "bbb4613958cc85a134e721988b0351f921515e8012ed7e831457af566e65ee18",
+    "geometry_changed": true
+  },
+  {
+    "id": "B05",
+    "name": "Electronics tray with integrated board platforms",
+    "quantity": 1,
+    "step": "master_step/B05.step",
+    "bounds": [
+      -112.0,
+      -63.5,
+      29.0,
+      13.0,
+      63.5,
+      53.0
+    ],
+    "volume_mm3": 48542.5953,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 110382,
+      "surface_components": 1,
+      "triangle_count": 110478
+    },
+    "print_dimensions_mm": [
+      125.0,
+      127.0,
+      24.0
+    ],
+    "print_mesh": "verification/B05_print.stl",
+    "source_sha256": "2931f30b750618fd9e346a2ce628a05eefba3ab7c0e102107dc6daaa893280e9",
+    "geometry_changed": true
+  },
+  {
+    "id": "B06",
+    "name": "Adjustable ESP32 carrier with integral feet",
+    "quantity": 1,
+    "step": "master_step/B06.step",
+    "bounds": [
+      -103.0,
+      -7.0,
+      47.0,
+      -53.0,
+      57.0,
+      60.0
+    ],
+    "volume_mm3": 6919.73382,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 14450
+    },
+    "print_dimensions_mm": [
+      50.0,
+      64.0,
+      13.0
+    ],
+    "print_mesh": "verification/B06_print.stl",
+    "source_sha256": "c3d3fca9c4e628eb9a6d60421628d0ab2ff1682f278d8678f9be33fc630a95ab",
+    "geometry_changed": false
+  },
+  {
+    "id": "B07",
+    "name": "One-piece battery holder cradle",
+    "quantity": 1,
+    "step": "master_step/B07.step",
+    "bounds": [
+      -95.0,
+      -29.5,
+      0.0,
+      -1.0,
+      29.5,
+      10.0
+    ],
+    "volume_mm3": 23278.0786,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 12440
+    },
+    "print_dimensions_mm": [
+      94.0,
+      59.0,
+      10.0
+    ],
+    "print_mesh": "verification/B07_print.stl",
+    "source_sha256": "c6b846f3b74076e882858078d6c3fa7bd4413904679d7df2d69be508787b0c0d",
+    "geometry_changed": false
+  },
+  {
+    "id": "B08",
+    "name": "Rounded head with integrated mounting rails",
+    "quantity": 1,
+    "step": "master_step/B08.step",
+    "bounds": [
+      30.0,
+      -56.0,
+      109.0,
+      98.0,
+      56.0,
+      179.0
+    ],
+    "volume_mm3": 71327.878,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 41498
+    },
+    "print_dimensions_mm": [
+      112.0,
+      70.0,
+      68.0
+    ],
+    "print_mesh": "verification/B08_print.stl",
+    "source_sha256": "dda057ff0616e998c9f256d4a6c708d81833c04d01f9046d60bd395a40481297",
+    "geometry_changed": false
+  },
+  {
+    "id": "B09",
+    "name": "Head rear cover with buzzer support",
+    "quantity": 1,
+    "step": "master_step/B09.step",
+    "bounds": [
+      27.0,
+      -55.5,
+      109.5,
+      30.0,
+      55.5,
+      178.5
+    ],
+    "volume_mm3": 20946.0398,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 30204
+    },
+    "print_dimensions_mm": [
+      111.0,
+      69.0,
+      3.0
+    ],
+    "print_mesh": "verification/B09_print.stl",
+    "source_sha256": "0bc9f0740bfe457ffa5a32e1087c735adcb04d36a77170efef61f965b9122412",
+    "geometry_changed": false
+  },
+  {
+    "id": "B10",
+    "name": "Unified display microphone and LED visor",
+    "quantity": 1,
+    "step": "master_step/B10.step",
+    "bounds": [
+      72.0,
+      -54.0,
+      109.0,
+      100.8,
+      54.0,
+      179.0
+    ],
+    "volume_mm3": 26147.7725,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 6,
+      "winding_repaired_triangles": 30314,
+      "surface_components": 1,
+      "triangle_count": 30330
+    },
+    "print_dimensions_mm": [
+      108.0,
+      70.0,
+      28.8
+    ],
+    "print_mesh": "verification/B10_print.stl",
+    "source_sha256": "15f2e29dbb69fd6cd43f0036a5e3bd85acac2828dcdef65dd0c8c4d30778a128",
+    "geometry_changed": false
+  },
+  {
+    "id": "B10R",
+    "name": "Removable OLED rear carrier",
+    "quantity": 1,
+    "step": "master_step/B10R.step",
+    "bounds": [
+      88.0,
+      -31.5,
+      146.172,
+      91.0,
+      31.5,
+      173.472
+    ],
+    "volume_mm3": 3934.33912,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 5030
+    },
+    "print_dimensions_mm": [
+      63.0,
+      27.3,
+      3.0
+    ],
+    "print_mesh": "verification/B10R_print.stl",
+    "source_sha256": "9ffb631ee79e16a8f431b6a6337aa3228085ea16461c72c7a62c65ee344952d4",
+    "geometry_changed": false
+  },
+  {
+    "id": "B11",
+    "name": "Speaker rear retaining frame",
+    "quantity": 2,
+    "step": "master_step/B11.step",
+    "bounds": [
+      -45.0,
+      -30.0,
+      0.0,
+      45.0,
+      18.5,
+      25.0
+    ],
+    "volume_mm3": 8426.33837,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 10722
+    },
+    "print_dimensions_mm": [
+      90.0,
+      48.5,
+      25.0
+    ],
+    "print_mesh": "verification/B11_print.stl",
+    "source_sha256": "adc63a4e85cfbeada119be2cdf0d4c2d3a672893ccfff471e8872fc59b383013",
+    "geometry_changed": false
+  },
+  {
+    "id": "B12",
+    "name": "Unified rear switch and charging panel",
+    "quantity": 1,
+    "step": "master_step/B12.step",
+    "bounds": [
+      -120.8,
+      -51.0,
+      7.0,
+      -118.0,
+      51.0,
+      47.0
+    ],
+    "volume_mm3": 9619.37641,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 5798
+    },
+    "print_dimensions_mm": [
+      102.0,
+      40.0,
+      2.8
+    ],
+    "print_mesh": "verification/B12_print.stl",
+    "source_sha256": "ec95db614091c2f9c782cf0ce7bee3fb98bbb2cf3985c3badad9129e6c43fd40",
+    "geometry_changed": false
+  },
+  {
+    "id": "B13",
+    "name": "Adjustable chassis foot",
+    "quantity": 4,
+    "step": "master_step/B13.step",
+    "bounds": [
+      -18.0,
+      -8.0,
+      0.0,
+      18.0,
+      8.0,
+      8.0
+    ],
+    "volume_mm3": 3940.57052,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 5734,
+      "surface_components": 1,
+      "triangle_count": 5782
+    },
+    "print_dimensions_mm": [
+      36.0,
+      16.0,
+      8.0
+    ],
+    "print_mesh": "verification/B13_print.stl",
+    "source_sha256": "5bdd0f35461fefd52146f8ff37043b12ba4a50a2c79dfdb8c5889df79392f6d8",
+    "geometry_changed": false
+  },
+  {
+    "id": "B14",
+    "name": "Removable universal power and interface tray",
+    "quantity": 1,
+    "step": "master_step/B14.step",
+    "bounds": [
+      3.0,
+      -39.0,
+      35.0,
+      115.0,
+      39.0,
+      38.0
+    ],
+    "volume_mm3": 19947.8644,
+    "solid_count": 1,
+    "mesh": {
+      "collapsed_triangles_removed": 0,
+      "winding_repaired_triangles": 0,
+      "surface_components": 1,
+      "triangle_count": 42006
+    },
+    "print_dimensions_mm": [
+      112.0,
+      78.0,
+      3.0
+    ],
+    "print_mesh": "verification/B14_print.stl",
+    "source_sha256": "f0a4152792e2e1407780b2023977770f2923141001991361c23a84df9d489adc",
+    "geometry_changed": true,
+    "recipe_sha256": "a84e1320aa2226f991b2cc72cf40b7e3f43c43e0476083dc0bbd07a4e9bcaed5"
+  }
+]

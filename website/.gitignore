@@ -1,0 +1,8 @@
+node_modules/
+.sites-runtime/
+work/
+dist/
+qa/*.png
+.DS_Store
+.env*
+*.tar.gz

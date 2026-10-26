@@ -1,0 +1,20 @@
+print_file,part,quantity_in_file,x_mm,y_mm,z_mm,orientation_and_support
+PRINT_ALL/01_B01.stl,Front integrated shell,1,117.7,136.0,70.0,Shell open top upward. Accessible supports below internal tray ledge and wheel-opening roofs; remove through open bottom before installation.
+PRINT_ALL/02_B02.stl,Rear integrated shell,1,130.0,136.0,70.0,Local supports under wheel-opening roofs and internal ledges. Keep the USB opening clear.
+PRINT_ALL/03_B03.stl,Front deck with sculpted fixed neck,1,117.2,135.0,31.0,Deck underside on bed; fixed neck upward. Inspect neck transitions in the slicer.
+PRINT_ALL/04_B04.stl,Rear service lid,1,117.2,135.0,13.5,"Main lid exterior upward, locating rim down: hood upward. Main plate needs accessible local support above locating rim; inspect five hood vents and the hood roof. Do not use the old flat-exterior-on-bed instruction."
+PRINT_ALL/05_B05.stl,Electronics tray with integrated board platforms,1,125.0,127.0,24.0,"Lower mounting arms on bed, board platforms upward. Support the raised main tray floor and remove support through the open underside. Clean the two ESP32 connector slots and four original mounting holes."
+PRINT_ALL/06_B06.stl,Adjustable ESP32 carrier with integral feet,1,50.0,64.0,13.0,"Carrier plate face on bed, feet upward. No intended large unsupported bridge."
+PRINT_ALL/07_B07.stl,One-piece battery holder cradle,1,94.0,59.0,10.0,Cradle bottom on bed. Preserve the four 1.6 mm strap openings; thread thin ties before installing the holder.
+PRINT_ALL/08_B08.stl,Rounded head with integrated mounting rails,1,112.0,70.0,68.0,Rear open rim on bed. Use accessible internal support for front overhangs and rails.
+PRINT_ALL/09_B09.stl,Head rear cover with buzzer support,1,111.0,69.0,3.0,Outside cover face on bed. Flat panel; inspect slots.
+PRINT_ALL/10_B10.stl,Unified display microphone and LED visor,1,108.0,70.0,28.8,Front visor face on bed. Local support behind microphone cup and arms; keep acoustic duct clear.
+PRINT_ALL/11_B10R.stl,Removable OLED rear carrier,1,63.0,27.3,3.0,Flat carrier face on bed. Keep all four open slots clear.
+PRINT_ALL/12_B11_1.stl,Speaker rear retaining frame,1,90.0,48.5,25.0,"Frame face on bed, two long posts upward. Both copies identical."
+PRINT_ALL/13_B11_2.stl,Speaker rear retaining frame,1,90.0,48.5,25.0,"Frame face on bed, two long posts upward. Both copies identical."
+PRINT_ALL/14_B12.stl,Unified rear switch and charging panel,1,102.0,40.0,2.8,Outside panel face on bed. Thin switch-latch areas upward.
+PRINT_ALL/15_B13_1.stl,Adjustable chassis foot,1,36.0,16.0,8.0,Foot base on bed. Two internal strap passages; underside M3 nut pocket. Inspect bridge and hole quality.
+PRINT_ALL/16_B13_2.stl,Adjustable chassis foot,1,36.0,16.0,8.0,Foot base on bed. Two internal strap passages; underside M3 nut pocket. Inspect bridge and hole quality.
+PRINT_ALL/17_B13_3.stl,Adjustable chassis foot,1,36.0,16.0,8.0,Foot base on bed. Two internal strap passages; underside M3 nut pocket. Inspect bridge and hole quality.
+PRINT_ALL/18_B13_4.stl,Adjustable chassis foot,1,36.0,16.0,8.0,Foot base on bed. Two internal strap passages; underside M3 nut pocket. Inspect bridge and hole quality.
+PRINT_ALL/19_B14.stl,Removable universal power and interface tray,1,112.0,78.0,3.0,"Tray bottom on bed. Preserve tie slots, four M3 holes and central cable opening."
